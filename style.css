@@ -1,8 +1,10 @@
 .conteudo{
-
+    background-color: white;
     text-align: center;
-    border-radius: 1px;
-    padding: 100px 200px;
+    border-radius: 20px;
+    padding: 100px 100px;
+    border: 2px solid pink;
+
 }
 
 .no{
@@ -11,4 +13,30 @@
 
 .sobre{
     text-align: justify;
+}
+.cabeca{
+    text-align: center;
+    .conteudo{
+    
+        text-align: center;
+        border-radius: 1px;
+        padding: 100px 200px;
+    }
+    
+    .no{
+        grid-area: no;
+    }
+    
+    .sobre{
+        text-align: justify;
+    }
+}
+
+.cor{
+    color: lightcoral;
+}
+#fundo{
+    padding: 0px 200px;
+    background: rgb(2,0,36);
+    background: linear-gradient(49deg, coral 0%, lightcoral 35%);
 }
